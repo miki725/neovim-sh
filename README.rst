@@ -17,7 +17,6 @@ To use in `neovim`, simply set python host program variables:
     function! s:SetPythonHostProg(job_id, data, event)
         if (len(a:data[0]) > 0)
             execute(a:data[0])
-            call append(line('$'), a:data[0])
         endif
     endfunction
 
