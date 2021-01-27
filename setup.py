@@ -18,7 +18,7 @@ ENTRYPOINT = "neovim_sh.__main__:main"
 
 setup(
     name="neovim-sh",
-    version="0.1",
+    version="0.1.1",
     description="Neovim wrapper project to install as a script",
     long_description=read("README.rst"),
     long_description_content_type="text/x-rst",
